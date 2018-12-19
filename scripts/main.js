@@ -20,14 +20,14 @@ var myHeading = document.querySelector('h1');
 function setUserName() {
 	var myName = prompt('Please enter your name.');
 	localStorage.setItem('name', myName);
-	myHeading.textContent = 'Whale sharks are cool, ' + myName; 
+	myHeading.textContent = myName + '\'s jog log'; 
 }
 
 if (!localStorage.getItem('name')) {
 	setUserName();
 } else {
 	var storedName = localStorage.getItem('name');
-	myHeading.textContent = 'Whale sharks are cool, ' + storedName;
+	myHeading.textContent = storedName + '\'s jog log';
 }
 
 myButton.onclick = function() {
