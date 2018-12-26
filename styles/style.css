@@ -33,3 +33,9 @@ img {
   margin: 0 auto;
 }
 
+a:hover,
+a:active,
+a:focus {
+	color: white;
+	text-decoration: none;
+}
