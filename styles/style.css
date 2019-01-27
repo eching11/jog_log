@@ -39,3 +39,27 @@ a:focus {
 	color: white;
 	text-decoration: none;
 }
+
+table, th, td {
+	border: 1px solid white;
+	border-collapse: collapse;
+}
+
+th, td {
+	padding: 15px;
+}
+
+caption {
+	color: white;
+	font-size: 24px;
+	text-align: center;
+}
+
+thead {
+	color: white;
+	font-size: 15px;
+}
+
+tbody {
+	color: white;
+}
