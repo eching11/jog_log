@@ -10,9 +10,9 @@ myImage.onclick = function() {
 
 }
 
-document.querySelector('html').onclick = function() {
+/*document.querySelector('html').onclick = function() {
     alert('Ouch! Stop poking me!');
-}
+}*/
 
 var myButton = document.querySelector('button');
 var myHeading = document.querySelector('h1');
