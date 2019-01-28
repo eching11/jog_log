@@ -1,3 +1,4 @@
+// change images onclick
 var myImage = document.querySelector('img');
 
 myImage.onclick = function() {
@@ -14,6 +15,7 @@ myImage.onclick = function() {
     alert('Ouch! Stop poking me!');
 }*/
 
+// button to customize name
 var myButton = document.querySelector('button');
 var myHeading = document.querySelector('h1');
 
